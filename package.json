@@ -4,6 +4,8 @@
   "description": "basic-node-server",
   "main": "index.js",
   "scripts": {
+    "start:core": "node index.js",
+    "start:express": "node app.js",
     "test": "echo"
   },
   "repository": {
@@ -19,5 +21,8 @@
   "homepage": "https://github.com/gnanadeep/basic-node-server#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0"
   }
 }
