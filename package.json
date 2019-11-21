@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start:core": "node index.js",
-    "start:express": "node app.js",
+    "start:express": "nodemon app.js",
     "test": "echo"
   },
   "repository": {
@@ -23,6 +23,8 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "eslint": "^6.6.0"
+    "eslint": "^6.6.0",
+    "eslint-config-google": "^0.14.0",
+    "nodemon": "^2.0.0"
   }
 }
