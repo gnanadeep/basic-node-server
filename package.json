@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/gnanadeep/basic-node-server#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "eslint": "^6.6.0",
